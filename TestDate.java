@@ -18,7 +18,7 @@ class TestDate {
         sc.close();
 
         // TODO : your code after this line
-        SimpleDateFormat formatted= new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat formatted= new SimpleDateFormat("MM-dd-yyyy");
         
         Calendar c = new GregorianCalendar(year, month-1, day);
         Date d = c.getTime();
